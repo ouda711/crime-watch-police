@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BottomActivity"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white">
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:id="@+id/crimeAlert"-->
+<!--            android:background="?android:attr/selectableItemBackground"-->
+<!--            android:padding="8dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/new_crime_alert"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:textSize="20sp"-->
+<!--                android:fontFamily="@font/antic"-->
+<!--                android:padding="6dp"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:background="?android:attr/selectableItemBackground"-->
+<!--            android:padding="8dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="24dp"-->
+<!--                android:layout_height="24dp"-->
+<!--                android:src="@drawable/ic_crime_title_foreground"-->
+<!--                android:layout_margin="8dp"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textCrimeTitle"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/title"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:padding="8dp"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:background="?android:attr/selectableItemBackground"-->
+<!--            android:padding="8dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="24dp"-->
+<!--                android:layout_height="24dp"-->
+<!--                android:src="@drawable/ic_lmy_location_foreground"-->
+<!--                android:layout_margin="8dp"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textCrimeLocation"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/location"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:padding="8dp"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:id="@+id/download"-->
+<!--            android:background="?android:attr/selectableItemBackground"-->
+<!--            android:padding="8dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="24dp"-->
+<!--                android:layout_height="24dp"-->
+<!--                android:src="@drawable/ic_crime_desc_foreground"-->
+<!--                android:layout_margin="8dp"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textCrimeDescription"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:padding="8dp"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="10dp">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/acceptButton"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="@string/accept"-->
+<!--                style="@style/Widget.MaterialComponents.Button"-->
+<!--                android:background="@color/green"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:layout_marginEnd="4dp"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/reject"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="@string/ignore"-->
+<!--                style="@style/Widget.MaterialComponents.Button"-->
+<!--                android:background="@color/red"-->
+<!--                android:textColor="@color/white"/>-->
+<!--        </LinearLayout>-->
+
+</LinearLayout>
